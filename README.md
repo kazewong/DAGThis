@@ -5,6 +5,7 @@ This library do one thing and one thing only: given a directory, scan all the fi
 ## Roadmap
 
 - [ ] Basic graph structure
-- [ ] 
+- [ ] Building Dag given entry points
 - [ ] Plain text scanning
 - [ ] Programmatically add nodes and edges to the graph
+- [ ] Render the graph to a file

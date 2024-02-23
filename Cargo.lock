@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "DAGThis"
+name = "dag_this"
 version = "0.1.0"
