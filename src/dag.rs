@@ -24,13 +24,8 @@ impl DAG {
         }
     }
 
-    fn add_node(&mut self, name: String, node_type: NodeType, input: Option<String>, output: Option<String>) {
-        self.nodes.push(Node {
-            name: name,
-            node_type: node_type,
-            input: input,
-            output: output,
-        });
+    fn add_node(&mut self, node: Node) {
+        self.nodes.push(node);
     }
 
     fn add_relation(&mut self, from: String, to: String) {
