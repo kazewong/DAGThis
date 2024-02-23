@@ -1,7 +1,11 @@
 [package]
 name = "DAGThis"
 version = "0.1.0"
+authors = ["Kaze Wong <kazewong.physics@gmail.com>"]
 edition = "2021"
+description = "A rust library for defining entry points and building a directed acyclic graph (DAG) of tasks."
+license = "MIT"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
