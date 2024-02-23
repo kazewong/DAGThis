@@ -7,7 +7,8 @@ enum NodeType {
 struct Node {
     name: String,
     node_type: NodeType,
-    data: Option<String>,
+    input: Option<String>,
+    output: Option<String>,
 }
 
 struct DAG {
